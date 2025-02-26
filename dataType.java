@@ -3,9 +3,9 @@ class Sample1
 {
     public static void main(String[] args)
     {
-        int i = 20;
-        byte b = i; // error - downcasting(possible lossy conversion from int to byte)
-        System.out.println(b);
+        // int i = 20;
+        //byte b = i; // error - downcasting(possible lossy conversion from int to byte)
+        // System.out.println(b);
     }
 }
 
