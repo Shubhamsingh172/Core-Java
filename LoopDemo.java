@@ -339,17 +339,21 @@ class LoopDemo11
             int j = 1;
             while(j <= (num / 2 + 1) * 2)
             {
-                if(i <= num / 2)
+                if(i <= num / 2 + 1)
                 {
-                    if(j <= (n / 2 + 1) * 2 - (i * 2 - 1))
-                        System.out.println(" ");
+                    if(j <= (num / 2 + 1) * 2 - (i * 2 - 1))
+                        System.out.print(" ");
                     else
-                        System.out.println("* ");
+                        System.out.print("* ");
                 }
                 else
                 {
-                    if(j <= )
+                    if(j <= i * 2 - num)
+                        System.out.print(" ");
+                    else
+                        System.out.print("* ");
                 }
+                j++;
             }
             System.out.println();
             i++;
