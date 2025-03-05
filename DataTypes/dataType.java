@@ -1,3 +1,4 @@
+package DataTypes;
 //program 1
 class Sample1 
 {
