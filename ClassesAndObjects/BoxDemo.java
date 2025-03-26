@@ -1,14 +1,15 @@
-class Box
+class Box1
 {
     double length;
     double width;
     double depth;
+    
 }
 class BoxDemo
 {
     public static void main(String[] args)
     {
-        Box b1 = new Box();
+        Box1 b1 = new Box1();
         b1.length = 1.1;
         System.out.println("B1");
         System.out.println("Length : " + b1.length);
@@ -16,7 +17,7 @@ class BoxDemo
         System.out.println("Depth : " + b1.depth);
         System.out.println();
 
-        Box b2 = new Box(); // declare an object by using which we can perform the operation
+        Box1 b2 = new Box1(); // declare an object by using which we can perform the operation
         b2.length = 10.25;
         b2.width = 11.25;
         b2.depth = 12.25;
