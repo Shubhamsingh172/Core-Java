@@ -21,4 +21,11 @@ public class Box
         System.out.println("Width : " + width);
         System.out.println("Depth : " + depth);
     }
+    boolean compare(Box B)
+    {
+        if(B.length == length && B.width == width && B.depth == depth)
+            return true;
+        else 
+            return false;
+    }
 }
