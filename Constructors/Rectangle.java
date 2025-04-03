@@ -15,7 +15,7 @@ public class Rectangle
         breadth = b;
     }
 
-    Rectangle(Rectange R)
+    Rectangle(Rectangle R)
     {
         length = R.length;
         breadth = R.breadth;
@@ -43,8 +43,14 @@ public class Rectangle
         System.out.println("Area : " + R2.areaOfRectangle());
         System.out.println("Perimeter : " + R2.perimeterOfRectangle());
 
+        //reference to reference copy means shallow copy
         Rectangle R3 = R2;
         System.out.println("Area : " + R3.areaOfRectangle());
         System.out.println("Perimeter : " + R3.perimeterOfRectangle());
+
+        //object to object copy means deep copy
+        Rectangle R4 = new Rectangle(R3);
+        System.out.println("Area : " + R4.areaOfRectangle());
+        System.out.println("Perimeter : " + R4.perimeterOfRectangle());
     }
 }
