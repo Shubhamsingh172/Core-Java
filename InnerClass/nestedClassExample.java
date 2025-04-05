@@ -20,5 +20,6 @@ public class nestedClassExample {
         nestedClassExample outer = new nestedClassExample();
         outer.display();
         nestedClassExample.innerClassExample inner = outer.new innerClassExample();
+        inner.show();
     }
 }
