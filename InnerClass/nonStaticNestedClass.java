@@ -17,3 +17,15 @@ public class nonStaticNestedClass {
         inner.show();
     }
 }
+/*
+2️⃣ Non-static Nested Class (Inner Class)
+Yeh ek non-static class hoti hai jo kisi outer class ke andar define hoti hai.
+
+Iska object banane ke liye pehle outer class ka object banana zaroori hota hai.
+
+Yeh outer class ke sabhi members ko access kar sakti hai, including private members.
+
+✅ Inner class outer class ke private members ko access kar sakti hai.
+✅ Iska object outer class ke bina nahi ban sakta.
+
+ */
