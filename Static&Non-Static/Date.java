@@ -1,4 +1,4 @@
-package StaticBlock;
+
 
 public class Date {
     int day;
@@ -19,6 +19,10 @@ public class Date {
         day = dd;
         month = mm;
         year = yy;
+    }
+    void nextDay()
+    {
+        day++;
     }
     void showDate()
     {
