@@ -1,5 +1,3 @@
-
-
 public class Date {
     int day;
     int month;
@@ -26,6 +24,6 @@ public class Date {
     }
     void showDate()
     {
-        System.out.printf("%02d/%02d/%04d\n",day,month, year);
+        System.out.printf("%02d/%02d/%04d\n",day, month, year);
     }
 }
