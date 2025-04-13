@@ -15,14 +15,14 @@ public class Date {
     {
         System.out.printf("%02d/%02d/%04d\n",day,month, year);
     }
-}
-
-class DateDemo
-{
-    public static void main(String[] args) 
+    void theNextDay()
     {
-        Date d = new Date();
-        d.setDate(17,03,2004);   
-        d.displayDate();
+        day++;
+    }
+    void afterNDays(int n)
+    {
+        for(int i = 0; i < n; i++)
+            theNextDay();
     }
 }
+
