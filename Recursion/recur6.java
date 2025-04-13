@@ -14,5 +14,6 @@ public class recur6 {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
         System.out.println("Factorial of number " + n + " is : " + fact(n));
+        sc.close();
     }
 }

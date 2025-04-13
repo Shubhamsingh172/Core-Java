@@ -15,5 +15,6 @@ public class recur5 {
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
         System.out.println("Sum of first " +  n + " natural number is : " + sumofNNatural(n));
+        sc.close();
     }
 }
