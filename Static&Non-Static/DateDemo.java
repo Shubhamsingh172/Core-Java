@@ -5,7 +5,8 @@ public class DateDemo {
         d1.showDate();
         Date d2 = new Date();
         d2.setDate(17,3, 2004);
-        d2.nextDay();
+        d2.showDate();
+        d2.afterNDays(5);
         d2.showDate();
 
     }

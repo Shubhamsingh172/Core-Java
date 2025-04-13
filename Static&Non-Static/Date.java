@@ -22,6 +22,11 @@ public class Date {
     {
         day++;
     }
+    void afterNDays(int n)
+    {
+        for(int i = 0; i < n; i++)
+            nextDay();
+    }
     void showDate()
     {
         System.out.printf("%02d/%02d/%04d\n",day, month, year);
